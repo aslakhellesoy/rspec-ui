@@ -8,10 +8,6 @@ examples/selenium/spec/selenium/find_rspecs_homepage_spec.rb
 examples/selenium/spec/spec_helper.rb
 examples/watir/README.txt
 examples/watir/Rakefile
-examples/watir/html/0.html
-examples/watir/html/1.html
-examples/watir/html/2.html
-examples/watir/html/3.html
 examples/watir/spec/spec_helper.rb
 examples/watir/spec/watir/find_rspecs_homepage_spec.rb
 lib/spec/ui.rb

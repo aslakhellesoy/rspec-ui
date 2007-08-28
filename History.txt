@@ -1,9 +1,9 @@
-== 0.0.3
+== 0.2.4
 * Examples are using Spec::Distributed's Rinda runners
 * Moved project from RSpec's subversion
 
-== 0.0.2
+== 0.2.3
 * Made setup much easier
 
-== 0.0.1
-* Applied [#7685] spec_ui feedback and patch (Patch from Alvin Schur)
+== 0.2.2
+* Applied [#7685] Spec::Ui feedback and patch (Patch from Alvin Schur)
