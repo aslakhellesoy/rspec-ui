@@ -9,7 +9,7 @@ Spec::Rake::SpecTask.new('spec:watir') do |t|
   t.spec_opts = [
     '--color', '--diff',
     '--require', 'rubygems,spec/ui', 
-    '--format', 'Spec::Ui::ScreenshotFormatter:spec_report.html',
+    '--format', 'Spec::Ui::ScreenshotFormatter:doc/report/index.html',
     '--format', 'progress'
   ]
   t.libs = ["../../lib"] # This line is not necessary if you have Spec::Ui installed as a gem
@@ -24,7 +24,7 @@ Spec::Rake::SpecTask.new('spec:watir:slave') do |t|
   t.spec_opts = [
     '--color', '--diff',
     '--require', 'rubygems,spec/ui,spec/distributed', 
-    '--format', 'Spec::Ui::SlaveScreenshotFormatter:spec_report.html',
+    '--format', 'Spec::Ui::SlaveScreenshotFormatter:doc/report/index.html',
     '--format', 'progress',
     '--runner', 'Spec::Distributed::RindaSlaveRunner'
   ]
@@ -37,7 +37,7 @@ Spec::Rake::SpecTask.new('spec:watir:master') do |t|
   t.spec_opts = [
     '--color', '--diff',
     '--require', 'rubygems,spec/ui,spec/distributed', 
-    '--format', 'Spec::Ui::MasterScreenshotFormatter:spec_report.html',
+    '--format', 'Spec::Ui::MasterScreenshotFormatter:doc/report/index.html',
     '--format', 'progress',
     '--runner', 'Spec::Distributed::RindaMasterRunner'
   ]
