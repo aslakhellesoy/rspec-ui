@@ -10,8 +10,8 @@ module Spec
 
       include ScreenshotSaver
 
-      def initialize(where, out=where)
-        super(out)
+      def initialize(options, where)
+        super
         if where.is_a?(String)
           @root = File.dirname(where)
         else

@@ -1,4 +1,5 @@
-== 0.2.4
+== 0.2.4 (In SVN)
+* Made the formatter compatible with the RSpec 1.0.8 Formatter constructor
 * Examples are using Spec::Distributed's Rinda runners
 * Moved project from RSpec's subversion
 
